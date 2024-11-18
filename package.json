@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "db": "bun src/script.ts",
+    "test": "bun test src/**/*.test.ts"
+  },
+  "type": "module",
+  "dependencies": {
+    "orchid-orm": "^1.37.12"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.1.11",
+    "@types/node": "^22.7.7",
+    "typescript": "^5.6.3"
+  }
+}
